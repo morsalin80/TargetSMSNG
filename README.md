@@ -1,6 +1,6 @@
 # Target SAMSUNG Research Institute
 
-### Question 1 :  [DONE]
+### Question 1 :  []
 
 
 You are given an unsorted array with both positive and negative elements. You have to find the smallest positive number missing from the array in O(n) time using constant extra space.
@@ -26,7 +26,7 @@ Output:
 2
 ```
 
-### Question 2 : [DONE]
+### Question 2 : []
 
 
 A binary matrix of nxm was given, you have to toggle any column k number of times so that you can get the maximum number of rows having all 1’s.
@@ -48,12 +48,12 @@ if k=3, then we will toggle column 2 thrice and we will get row 2 with 1 1 1 i.e
 
 N ≤ 20 and M ≤ 10^5
 
-### Question 3 : [DONE]
+### Question 3 : []
 
 > [Redundant. Refer : Question 32]
 
 
-### Question 4 : [DONE]
+### Question 4 : []
 
 Find a cycle, if exists, in a directed graph. If there is none, print 0. If there is one, print the path starting from the first node of the cycle to the last. If there are more than one, print any path.
 
@@ -61,25 +61,25 @@ Find a cycle, if exists, in a directed graph. If there is none, print 0. If ther
 
 It was a combination of Rat in a Maze and longest subpath problem.
 
-### Question 6 :    [DONE]
+### Question 6 :    []
 
 Find if given graph is bipartite or not, if it is bipartite then print either white color nodes or black color nodes.
 
-### Question 7 :    [DONE]
+### Question 7 :    []
 
 Find a cycle in the graph.
 > [Refer Question 4]
 
-### Question 8 : [DONE]
+### Question 8 : []
 
 Find a cycle in LinkedList.
 
-### Question 9 : [DONE]
+### Question 9 : []
 
 Variation of traveling salesman solved using backtracking (Optimization on traveling salesman ).
 > [Refer Question 11]
 
-### Question 10 :   [DONE]
+### Question 10 :   []
 
 You’ll be given a grid as below:
 
@@ -141,7 +141,7 @@ x x S x x -->bomb x x S x x
 Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
 
 
-### Question 11 : [DONE]
+### Question 11 : []
 
 Mr. Kim has to deliver refrigerators to N customers. From the office, he is going to visit all the customers and then return to his home. Each location of the office, his home, and the customers is given in the form of integer coordinates (x,y) (0≤x≤100, 0≤y≤100) . The distance between two arbitrary locations (x1, y1) and (x2, y2) is computed by |x1-x2| + |y1-y2|, where |x| denotes the absolute value of x; for instance, |3|=|-3|=3. The locations of the office, his home, and the customers are all distinct. You should plan an optimal way to visit all the N customers and return to his among all the possibilities. You are given the locations of the office, Mr. Kim’s home, and the customers; the number of the customers is in the range of 5 to 10. Write a program that, starting at the office, finds a (the) shortest path visiting all the customers and returning to his home. Your program only have to report the distance of a (the) shortest path. You don’t have to solve this problem efficiently. You could find an answer by looking up all the possible ways. If you can look up all the possibilities well, you will get a perfect score.
 
@@ -254,7 +254,7 @@ Order of computation will be followed as symbols entered if + comes, it will be 
 *One more example*: let’s say 1,4,6,7,8,9 works and +,-,* works. 2,3,5 and / doesn’t work.
 If you have to type 18-> 2 operations. (Each touch is considered an operation),br> If you have to type 5 -> ‘1+4=’ that requires 4 operations. There could be other ways to make ‘5’.
 
-### Question 13 :   [DONE]
+### Question 13 :   []
 
 There is one spaceship. X and Y coordinate of source and destination of spaceship are given. There are N number of wormholes each wormhole has 5 values. First 2 values are starting co-ordinate of wormhole and after that value no. 3 and 4 represents ending co-ordinate of wormhole and last 5th value is represents cost to pass through this wormhole. These wormholes are bi-directional.
 Now the to go from (x1,y1) to (x2,y2) is abs(x1-x2)+abs(y1-y2).
@@ -262,7 +262,7 @@ Find minimum distance to reach spaceship from source to destination co-ordinate 
 **Hint:**
 You can make graph which contain edge between all points and put cost of that edge. Now apply djikstra algorithm to find minimum distance between source to destination co-ordinate of spaceship. Here the main catch is that the cost to pass through wormhole can be zero so you have to take care while making graph matrix.
 
-### Question 14 :   [DONE]
+### Question 14 :   []
 
 There is an island surrounded by oil mines. You will be given n companies and m oil mines having values. You have to distribute the mines to “n” companies in a fair manner. Remember the companies can have oil mines adjacent to each other but not in between of each other. After distributing them compute the difference of oil mines from the company getting highest and company getting lowest. This number should be minimum.(then only the distribution can be termed as fair).
 
@@ -279,7 +279,7 @@ Output
 1			- Company1: 6+10   Comapny2: 13+2  => 16-15=1
 ```
 
-### Question 15 : [DONE]
+### Question 15 : []
 
 > [Refer Question 11]
 
@@ -311,7 +311,7 @@ No of pots to overflow-- k
 Let say two pots are there with overflow no.s {5,58}, and the crow has to overflow one pot(k=1). So crow will put 5 stones in the pot with overflow no.(58), it will not overflow, then he will put them in the pot with overflow no.(5), hence the total no. of stones to make overflow one pot is=10.
 What is the best algorithm to do it?
 
-### Question 17 :   [DONE]
+### Question 17 :   []
 
 Given n balloons, indexed from 0 to n-1. Each balloon is painted with a number on it represented by array nums. You are asked to burst all the balloons. If the you burst balloon i you will get nums[left] * nums[i] * nums[right] coins. Here left and right are adjacent indices of i. After the burst, the left and right then becomes adjacent.
 Find the maximum coins you can collect by bursting the balloons wisely.
@@ -329,7 +329,7 @@ Return 167
 nums = [3,1,5,8] –> [3,5,8] –> [3,8] –> [8] –> [] coins = 3*1*5 + 3*5*8 + 1*3*8 + 1*8*1 = 167
 ```
 
-### Question 18 :[DONE]
+### Question 18 :[]
 
 Dijkstra code.
 
@@ -337,7 +337,7 @@ Dijkstra code.
 
 Kahn’s algorithm.
 
-### Question 20 : [DONE]
+### Question 20 : []
 
 Topological Sort.
 
@@ -355,11 +355,11 @@ result= [ab, cd, ef, 12,34,56]
 
 Write a MergeSort for Two Different Sorted Link List… Emphasis on TO and SO with all Error Conditions..
 
-### Question 24 :   [DONE]
+### Question 24 :   []
 
 Stock Buy Sell to Maximize Profit
 
-### Question 25 :   [DONE]
+### Question 25 :   []
 
 Next greater number set digits
 
@@ -372,7 +372,7 @@ Smallest Positive missing number
 
 Kadane’s Algorithm
 
-### Question 28 :   [DONE]
+### Question 28 :   []
 
 Given an integer ‘K’ and a tree in string format. We had to print the sum of all elements at Kth level from root.
 For example:-
@@ -407,7 +407,7 @@ A company sells its products with a unique serial number on it. Company has has 
 
 Input: First line contains the number of test cases, followed buy the range s to e, 1
 
-### Question 30 : [DONE]
+### Question 30 : []
 
 A Research team want to establish a research center in a region where they found some rare-elements. They want to make it closest to all the rare-elements as close as possible so that they can reduce overall cost of research over there. It is given that all the rare-element’s location is connected by roads. It is also given that Research Center can only be build on road. Team decided to assign this task to a coder. If you feel you have that much potential..
 Here is the Task :- Find the shortest of the longest distance of research center from given locations of rare-elements.
@@ -415,13 +415,13 @@ Locations are given in the matrix cell form where 1 represents roads and 0 no ro
 Number of rare-element and their location was also given(number<=5)
 and order of square matrix was less than equal to (20).
 
-### Question 31 : [DONE]
+### Question 31 : []
 
 A Doctor travels from a division to other division where divisions are connected like a graph(directed graph) and the edge weights are the probabilities of the doctor going from that division to other connected division but the doctor stays 10mins at each division now there will be given time and had to find the division in which he will be staying by that time and is determined by finding division which has high probability.
 Input is number of test cases followed by the number of nodes, edges, time after which we need to find the division in which he will be there, the edges starting point, end point, probability.
 Note: If he reaches a point where there are no further nodes then he leaves the lab after 10 mins and the traveling time is not considered and during that 10min at 10th min he will be in next division, so be careful.
 
-### Question 32 :   [DONE]
+### Question 32 :   []
 
 Fishing Spots: 1 to N
 3 Gates with gate position and number of fishermen waiting to get in
@@ -431,7 +431,7 @@ There could be 2 spots closest to the gate. Assign only 1 spot to the last fishe
 Write a program to return sum of minimum distance need to walk for fishermen.
 Note : The problem can be solved using Recursion and Backtracking by considering all possible combinations.
 
-### Question 33 : [DONE]
+### Question 33 : []
 
 Given a string, your task is to find the number of patterns of form 1[0]1 where [0] represents any number of zeroes (minimum requirement is one 0) there should not be any other character except 0 in the [0] sequence.
 
@@ -461,7 +461,7 @@ Output:
 2
 ```
 
-### Question 34 : [DONE]
+### Question 34 : []
 
 You are given a pointer/reference to a node to be deleted in a linked list. The task is to delete the node.  Pointer/reference to head node is not given.  You may assume that the node to be deleted is not the last node.
 
@@ -486,7 +486,7 @@ Output :
 10 4 30
 ```
 
-### Question 35 : [DONE]
+### Question 35 : []
 
 Given a Binary search tree. Your task is to complete the function which will return the Kth largest element without doing any modification in Binary Search Tree.
 
@@ -511,7 +511,7 @@ Input:
 Output:
 60
 ```
-### Question 36 : [DONE]
+### Question 36 : []
 
 Company S has developed an industrial endoscope available to explore inner part of the decrepit water pipes.
 It is possible to explore the inner part of the pipes putting the endoscope in a certain part of the pipe.
@@ -543,7 +543,7 @@ Print the respective answer for T test cases in total for T lines. The answer is
 **Constraints**
 1≤ T ≤100 ; 1≤ N, M ≤50 ; 0≤ X < N ; 0≤ Y < M ; 1≤ L ≤ 20
 
-### Question 37 : [DONE]
+### Question 37 : []
 
 Men's restroom problem : It is a well-researched fact that men in a restroom generally prefer to maximize their distance from already occupied stalls, by occupying the middle of the longest sequence of unoccupied places. For detailed version, check the following link. <br>
 Link : https://stackoverflow.com/questions/32645046/urinal-algorithm-a-simple-optimization
